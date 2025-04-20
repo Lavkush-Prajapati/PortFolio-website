@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persional Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div id="heder">
+        <div class="contenar">
+            <nav>
+                <img src="layar1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#heder">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="heder-text">
+               
+            <p>UI/UX Design</p>
+            <h1>Hi, I'm <span>Lavkush</span> <br>Prajapati From India</h1>
+           
+        </div>
+
+    </div>
+
+    <!-- ---------About------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <img src="lav2.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-titel ">About me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Eligendi <br>cumque quam animi nulla, veniam eveniet sapiente deserunt, vel sunt amet<br> nihil
+                          neque soluta laborum quasi minus suscipit reiciendis maxime voluptatibus!
+                     </p>
+                          <div class="tab-titels">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experince')">Experince</p>
+                            <p class="tab-links" onclick="opentab('eduction')">Eduction</p>
+                          </div>
+                        <div class="tab-contents active-tab" id="skills" >
+                            <ul>
+                                <li><span>UX/UI</span><br>Disigning Web/App Interface</li>
+                                <li><span>Web Developer</span><br>Disigning Website Interface</li>
+                                <li><span>App Developer</span><br>Building IOS/Android App</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experince">
+                            <ul>
+                                <li><span>UX/UI</span><br>Designing Web/App Interface</li>
+                                <li><span>Web Developer</span><br>Disigning Web/App Interface</li>
+                                <li><span>App Developer</span><br>Building IOS/Android App</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="eduction">
+                            <ul>
+                                <li><span>10th 2019</span><br>S.S Inter Collage Neodhiya mariyahu jaunpur</li>
+                                <li><span> 12th 2021</span><br>S.S Inter Collage Neodhiya mariyahu jaunpur</li>
+                                <li><span>BCA 2025</span><br>VBS Purvanchal Univarcity jaunpur</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------services------- -->
+
+    <div id="services">
+      <div class="container">
+         <h1 class="sub-titel ">My Services</h1>
+          <div class="services-list">
+             <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Disign</h2>
+                <p>Lorem ipsum consectetur adipisicing elit. 
+                    minus rem quod enim dolores ullam.</p>
+                    <a href="#">Learn more</a>
+             </div>
+             <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Disign</h2>
+                <p>Lorem ipsum consectetur adipisicing elit. 
+                    minus rem quod enim dolores ullam.</p>
+                    <a href="#">Learn more</a>
+             </div>
+             <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Disign</h2>
+                <p>Lorem ipsum consectetur adipisicing elit. 
+                     minus rem quod enim dolores ullam.</p>
+                    <a href="#">Learn more</a>
+             </div>
+          </div>
+      </div>
+    </div>
+
+     <!-- ----------portfolio--------- -->
+
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titel ">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1 (1).jpg">
+                    <div class="layar">
+                        <h3>Social Midia App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Accusamus nostrum officia culpa saepe autem.</p>
+                             <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.jpg">
+                    <div class="layar">
+                        <h3>Music App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Accusamus nostrum officia culpa saepe autem.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work1 (3).jpg">
+                    <div class="layar">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Accusamus nostrum officia culpa saepe autem.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+                <!-- -------------contact------------ -->
+
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titel">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>lavkush4004@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9151544004</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="LAVKUSH.pdf" download class="btn btn2"> Downlode CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made By Lavkush ❤️👷‍♀️💫😍🥰</p>
+        </div>
+     </div>      
+
+    <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname){
+        for(tablink of tablinks){
+         tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+    </script> 
+
+    <script>
+
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-130px";
+    }
+    </script>
+    
+</body>
+</html>
